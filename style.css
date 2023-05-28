@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu-bar{
+    background-image: linear-gradient( to right ,#aac7dc,#7ce08a);
+}
+.nav-link{
+    font-size: 16px;
+    color: #fff;
+    margin: 2px;
+}
+#image{
+    height: 40px;
+    width: 70px;
+}
+.navbar-nav{
+    text-align: end;
+}
+.menu-bar .navbar-toggler{
+    padding-right: 0;
+    outline: none;
+    border: none;
+}
+.banner{
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://img.freepik.com/free-photo/beautiful-caucasian-woman-looking-her-watch-waiting-job-interview-latin-man-woman-suits-recruitment-office_662251-270.jpg?w=740&t=st=1683914832~exp=1683915432~hmac=ec469ad8d22a4e5c3f74bb56d04d71f27ed299e391c5ebaafce518cf9b31878d);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.banner h1{
+    padding-top: 170px;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    text-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.search-job{
+    padding: 30px 0;
+    margin: -50px 0 50px;
+    background-image: linear-gradient( to right ,#aac7dc,#7ce08a);
+}
+.search-job .form-control{
+    max-width: 250px;
+    display: inline-flex;
+    margin: 10px 5px;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+}
+.search-job .btn-primary{
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    display: inline-flex;
+    margin: 5px;
+    padding: 5px 20px;
+}
+#recruiters{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#recruiters h3{
+    text-align: center;
+    padding-bottom: 40px;
+}
+h3::before{
+    content: '';
+    background-image: linear-gradient( to right ,#aac7dc,#7ce08a);
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    z-index: -10;
+    margin-top: -15px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 90px;
+}
+#recruiters img{
+    /* aspect-ratio: 4/1; */
+    max-width: 100px;
+    margin : 10px 20px;
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+}
+#jobbs{
+    background: #f8f8fa;
+    padding: 50px 0px;
+}
+.company-details{
+    box-shadow: 0 20px 70px 0 rgba(110,130,208,.18);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.job-update{
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.job-update .fa{
+    margin-top: 5px;
+    margin-right: 10px;
+    color: #77d1b1;
+}
+.job-update small{
+    background: #efefef;
+    padding: 1px 5px;
+    margin: 0 5px;
+}
+.job-update p{
+    margin-bottom: 0;
+}
+.job-update a{
+    text-decoration: none;
+}
+
